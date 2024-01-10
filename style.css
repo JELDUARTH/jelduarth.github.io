@@ -1,0 +1,64 @@
+/* estilo geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body{
+    background-image: url(img/backgroud.jpg) ;
+    background-size: cover;
+    background-position:top;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* estilo cabeçalho */
+
+
+header{
+    padding: 20px 6% ;
+}
+
+.logo{
+    color: #fff;
+}
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style-type: none;
+    font-size: large;
+}
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+
+}
+
+/* estilo  */
+section{
+    align-items: center;
+}
+
+section h1 {
+    margin: 150px 70px 0px; /* */ 
+    color: #fff;
+    font-size: 80px;
+}
+
+section h2{
+    margin-left: 120PX;
+    color: #cec4a1;
+    font-size: 39px;
+}

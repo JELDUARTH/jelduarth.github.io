@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    background-size: cover;
+    background-position: top;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* estilo cabeçalho */
+
+
+header{
+    padding: 20px 6% ;
+}
+
+.logo{
+    color: #fff;
+}
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style-type: none;
+    font-size: large;
+}
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+#album{
+    color: #fff;
+    margin: 100px 50px 0px;
+}
+
+section div{
+    display: inline-block;
+    padding: 60px;
+}
+
+.img-asta{
+    height: 30vh;
+    width: 40vh;
+}   
+
+section h1,h6{
+    color: #fff;
+}
